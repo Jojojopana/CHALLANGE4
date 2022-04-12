@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <TextView
+        android:id="@+id/tvID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="18dp"/>
+
+    <ImageView
+        android:id="@+id/ivDelete"
+        android:layout_marginLeft="300dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_baseline_delete_24"/>
+
+    <ImageView
+        android:id="@+id/ivEdit"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/ic_baseline_edit_24" />
+</RelativeLayout>
